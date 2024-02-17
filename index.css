@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+  background-image: url('./images/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  border: 5px solid #0F2167;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 800px; 
+  margin: 0 auto;
+  background-color: #FFECD6;
+}
+
+.header1{
+  font-family: 'Roboto', sans-serif;
+  color: #0F2167;
+  position: relative;
+    bottom: 50px;
+    left: 96px;
+  }
+
+
+header {
+  color: #0F2167;
+  font-family: 'Roboto', sans-serif;}
+
+.section {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;}
+
+
+
+.section h2 {
+  color: #0F2167;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.section ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.section ul li {
+  list-style-type: square;
+}
+
+.section .highlight {
+  font-weight: bold;
+}
+
+.profile-image {
+  max-width: 300px;
+  max-height: 300px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.profile-container {
+  display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      background-color:#4CB9E7;
+}
